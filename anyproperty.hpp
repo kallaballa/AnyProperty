@@ -1,8 +1,7 @@
 /*
  * anyproperty.hpp
  *
- * A single-header, OpenCV-free port of
- * Plan-V4D/modules/plan/include/opencv2/plan/threadsafeanymap.hpp.
+ * A optionally thread-safe std::any propery map.
  *
  * Requires C++17. Drop the header into your include path and:
  *
