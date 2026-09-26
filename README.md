@@ -12,7 +12,7 @@ declared once (read-only or writable) and can fire a callback when its value act
 - **Typed access with real error messages** — type mismatches report the expected and actual type.
 - **Change notification** via callbacks, fired only when the value differs.
 - **Optional thread safety** — `ThreadSafeAnyMap` guards every operation with a mutex.
-- **C++17**, ~270 lines, easy to audit.
+- **C++17**, ~270 lines.
 
 ## Table of Contents
 
@@ -273,7 +273,7 @@ vtable, no allocation per lookup, and no registration step beyond the `create` c
 Licensed under the [Apache License, Version 2.0](LICENSE).
 
 ```text
-Copyright (c) <year> <copyright holder>
+Copyright (c) <year> <amir@viel-zu.org>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
